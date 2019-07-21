@@ -1,0 +1,517 @@
+RELATIONAL:
+
+
+INSERT DOCTORS:
+SEND: INSERT INTO doctor (id, name, address, date_of_birth, specialty) VALUES (0, 'Argentina Henson', '348 Midcrest Route', '1976-06-14', 'oncologist')
+RECEIVED: 1
+SEND: INSERT INTO doctor (id, name, address, date_of_birth, specialty) VALUES (1, 'Kourtney Bell', '787 Amatista Gate', '1983-07-14', 'oncologist')
+RECEIVED: 1
+SEND: INSERT INTO doctor (id, name, address, date_of_birth, specialty) VALUES (2, 'Corliss Bradford', '32 Saint Germain Lane', '1993-01-16', 'obstetrician')
+RECEIVED: 1
+SEND: INSERT INTO doctor (id, name, address, date_of_birth, specialty) VALUES (3, 'Yulanda Suarez', '672 Locust Field', '1967-01-25', 'gynecologist')
+RECEIVED: 1
+SEND: INSERT INTO doctor (id, name, address, date_of_birth, specialty) VALUES (4, 'Deloise Whitaker', '941 Walker Heights', '1950-01-19', 'oncologist')
+RECEIVED: 1
+SEND: INSERT INTO doctor (id, name, address, date_of_birth, specialty) VALUES (5, 'Shanelle Mays', '1382 Presidio Side road', '1961-07-02', 'obstetrician')
+RECEIVED: 1
+SEND: INSERT INTO doctor (id, name, address, date_of_birth, specialty) VALUES (6, 'Ciera Petersen', '281 Maywood Loop', '1975-01-13', 'oncologist')
+RECEIVED: 1
+SEND: INSERT INTO doctor (id, name, address, date_of_birth, specialty) VALUES (7, 'Donetta Vazquez', '569 Liberty Trace', '1988-02-15', 'gynecologist')
+RECEIVED: 1
+SEND: INSERT INTO doctor (id, name, address, date_of_birth, specialty) VALUES (8, 'Gia Orr', '374 Avenue F Cove', '1985-05-17', 'obstetrician')
+RECEIVED: 1
+SEND: INSERT INTO doctor (id, name, address, date_of_birth, specialty) VALUES (9, 'Eura Sosa', '1317 Hussey Bay', '1984-01-26', 'obstetrician')
+RECEIVED: 1
+SEND: INSERT INTO doctor (id, name, address, date_of_birth, specialty) VALUES (10, 'Kindra Boyd', '32 Whitney Young Drung', '1978-06-18', 'oncologist')
+RECEIVED: 1
+
+INSERT PATIENTS:
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (0, 'Lynelle Mann', '457 Emerson Freeway', '1989-07-28', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (1, 'Edra Glover', '991 Crown Park', '1985-07-22', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (2, 'Catarina Mason', '447 Nichols Glen', '1973-02-25', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (3, 'Tammera Weeks', '178 Waterville Boulevard', '1989-07-22', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (4, 'Seema Mueller', '348 Garfield Ferry', '1994-06-06', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (5, 'Shonta Mcmillan', '33 Spear Trace', '1979-05-29', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (6, 'Jackelyn Potter', '881 Bay View Green', '1993-04-18', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (7, 'Devorah Goff', '1234 Del Sur Terrace', '1975-02-20', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (8, 'Britteny Peters', '386 Montague Private', '1964-07-20', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (9, 'Myrta Dickson', '178 Decker High Street', '2001-03-27', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (10, 'Margaretta Moreno', '1007 Somerset Mall', '1984-06-23', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (11, 'Inell Hopper', '1384 Cortland Townline', '1994-03-22', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (12, 'Eugene Downs', '864 Orange Plantation', '1968-03-04', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (13, 'Lovella Mays', '376 Carolina Nene', '1977-07-20', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (14, 'Ghislaine Rivers', '244 Osage Gardens', '1987-01-15', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (15, 'Keitha Reese', '64 Beachmont Annex', '1957-03-28', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (16, 'Erinn Heath', '728 Somerset Alley', '1963-05-26', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (17, 'Elayne Michael', '155 Lurline Point', '1962-02-23', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (18, 'Cordie Travis', '1226 Jessie Manor', '1999-03-02', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (19, 'Josefine Norris', '413 Roemer Trail', '1994-05-24', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (20, 'Aleen Crosby', '134 Ramsel Plaza', '1971-04-13', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (21, 'Slyvia Clarke', '1350 Black Close', '1995-07-10', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (22, 'Hien Jefferson', '605 Nelson Drive', '1983-02-20', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (23, 'Alverta Vinson', '987 Livingston Promenade', '1985-06-26', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (24, 'Temika Bauer', '1199 Cosgrove Brae', '1981-01-28', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (25, 'Janee Wiley', '77 Windsor Parade', '1989-06-20', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (26, 'Lyla Mays', '369 Gallagher Plaza', '1971-03-30', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (27, 'Shaquana Rich', '524 Staples Bypass', '1968-04-18', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (28, 'Michaele Sellers', '190 Kenneth Rexroth Freeway', '1964-05-11', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (29, 'Delsie Roach', '74 Baxter Court', '1967-06-23', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (30, 'Sheba Ellis', '291 Circular Grove', '1991-03-13', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (31, 'Anette Gardner', '675 Laurel Park', '1969-05-15', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (32, 'Alyse Levine', '1185 Oak Grove Crescent', '1982-07-10', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (33, 'Shavonda Gallegos', '878 Spear Manor', '1987-07-28', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (34, 'Mike Rodgers', '356 Allston Boulevard', '1968-05-06', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (35, 'Yolande Hensley', '787 Stillings Walk', '1998-06-04', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (36, 'Yolande Mays', '1293 Noe Plantation', '1960-07-16', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (37, 'Mui Lyons', '256 Paris Parkway', '1996-03-09', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (38, 'Laurena Farmer', '835 Masonic Alley', '1961-05-11', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (39, 'Theressa Mayer', '771 Mckinnon Park', '1972-03-16', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (40, 'Allyn Spears', '970 Stern Grove Green', '1987-03-04', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (41, 'Kattie Jacobs', '854 Dr Carlton B Goodlett Private', '1985-06-06', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (42, 'Miesha Juarez', '392 Rutledge Square', '1986-07-15', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (43, 'Shela Cardenas', '162 Rockland Concession road', '1980-04-08', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (44, 'Clarinda Steele', '682 North Hughes Parade', '1998-03-22', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (45, 'Yer Cote', '569 Farallones Court', '1963-02-15', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (46, 'Fredericka Collier', '72 Waltham Point', '1988-01-15', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (47, 'Cherish Key', '1381 Hayward Ferry', '1994-07-15', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (48, 'Jeffie Lindsay', '399 Yorba Terrace', '1993-02-24', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (49, 'Lynelle Barry', '46 Falmouth Bend', '1983-06-15', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (50, 'Savanna Weeks', '922 Miles Terrace', '1986-07-11', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (51, 'Annelle Guy', '652 Shannon Trail', '1970-02-09', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (52, 'Sunday Battle', '319 Pontiac Arcade', '1975-02-21', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (53, 'Lala Baker', '146 Fauntleroy Parade', '1999-01-29', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (54, 'Loise Copeland', '669 Church Access Nene', '1963-03-09', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (55, 'Eladia Medina', '387 Freelon Walk', '1988-04-16', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (56, 'Sima Beasley', '1219 Guttenberg Pike', '2001-03-25', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (57, 'Lonna Hartman', '472 Rockaway Promenade', '1957-01-19', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (58, 'Ligia Estrada', '1243 Edith Freeway', '1989-06-19', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (59, 'Cleopatra Lowe', '562 Shields Field', '1963-07-31', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (60, 'Penni Morrow', '361 Apparel Ferry', '1967-05-04', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (61, 'Blake Mcfadden', '205 Federal Brae', '1978-04-28', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (62, 'Francene Weber', '1229 Admiral Manor', '1962-06-02', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (63, 'Maegan Mejia', '486 Appleton Square', '1973-07-17', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (64, 'Wava Potter', '1154 Burrows Expressway', '1990-04-28', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (65, 'Sena Sellers', '942 Granada High Street', '1988-04-17', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (66, 'Sherise Henry', '437 Chapman Promenade', '1998-02-23', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (67, 'Han Schwartz', '1343 Moulton Brae', '1987-04-13', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (68, 'Merrill Blackwell', '1031 Transbay Hump Pike', '1969-07-25', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (69, 'Ellis Mcdowell', '412 Yukon Park', '1988-02-07', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (70, 'Nancee Bennett', '842 Selby Terrace', '1997-05-09', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (71, 'Tova Kim', '1308 North Gate Route', '1978-05-01', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (72, 'Eustolia Gentry', '856 Yerba Buena Parkway', '1965-03-20', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (73, 'Aiko Davenport', '1076 Watt Side road', '1990-02-11', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (74, 'Brittni Blair', '1103 Palos Run', '1995-02-26', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (75, 'Numbers Lloyd', '729 Chinook Place', '1974-06-28', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (76, 'Jinny Alvarez', '96 Science Sideline', '1971-05-09', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (77, 'Nichelle Chan', '957 Estero Glen', '1958-06-03', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (78, 'Jene Short', '1275 Pretor Bend', '1959-04-14', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (79, 'Sima Leblanc', '716 Richard Henry Dana Court', '1973-01-15', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (80, 'Kizzie Robinson', '120 Andrew Arcade', '1966-03-11', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (81, 'Yevette Castro', '1107 Waithman Boulevard', '1975-02-05', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (82, 'Latashia Dunlap', '1386 Heritage Plaza', '1998-02-10', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (83, 'Cythia Porter', '876 Circular Sideline', '1988-05-23', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (84, 'Bettyann Boone', '486 Cameo Brae', '1974-06-15', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (85, 'Kali Weeks', '546 Rutledge Hill', '1999-06-03', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (86, 'Jeannetta Fitzgerald', '355 Dow Close', '1979-04-15', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (87, 'Nickole Henderson', '1342 Virginia Drung', '1981-04-18', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (88, 'Joella Anthony', '731 Saroyan Esplanade', '1972-05-14', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (89, 'Antonio Hensley', '948 Homer Promenade', '1977-06-29', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (90, 'Iesha Brock', '37 Geary Gardens', '2000-02-03', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (91, 'Florentina Gallagher', '1017 Santa Ynez Brae', '1988-03-27', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (92, 'Carlyn Holt', '1123 Dow Line', '1959-01-19', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (93, 'Petronila Nielsen', '1375 Saint Elmo Grove', '1992-06-20', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (94, 'Margorie Ruiz', '379 Parkridge Hill', '1966-05-26', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (95, 'Jaleesa Williamson', '333 Alta Gardens', '1976-06-15', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (96, 'Eilene Slater', '36 West View Thruway', '2001-07-08', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (97, 'Ozell Young', '583 Pratt Street', '1965-04-11', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (98, 'Loida Hines', '160 Abbey Gardens', '1960-06-08', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (99, 'Synthia Moses', '954 Farallones Run', '1971-03-07', 'F')
+RECEIVED: 1
+SEND: INSERT INTO patient (id, name, address, date_of_birth, gender) VALUES (100, 'Kaycee Avila', '988 Hearst Court', '1992-01-09', 'F')
+RECEIVED: 1
+
+INSERT LABORATORY WORKERS:
+SEND: INSERT INTO laboratory_worker (id, name, address, date_of_birth, occupation) VALUES (0, 'Kathaleen Scott', '1169 Duncombe Sideline', '1950-05-18', 'biomedic')
+RECEIVED: 1
+SEND: INSERT INTO laboratory_worker (id, name, address, date_of_birth, occupation) VALUES (1, 'Deedra Benton', '13 Vara Run', '1982-02-05', 'biomedic')
+RECEIVED: 1
+SEND: INSERT INTO laboratory_worker (id, name, address, date_of_birth, occupation) VALUES (2, 'Ulrike Huff', '456 Christopher Road', '1974-03-10', 'biomedic')
+RECEIVED: 1
+SEND: INSERT INTO laboratory_worker (id, name, address, date_of_birth, occupation) VALUES (3, 'Nana Spence', '1 Baxter Bend', '1951-07-03', 'biomedic')
+RECEIVED: 1
+SEND: INSERT INTO laboratory_worker (id, name, address, date_of_birth, occupation) VALUES (4, 'Annice Albert', '337 Sloan Alley', '1975-02-13', 'biomedic')
+RECEIVED: 1
+SEND: INSERT INTO laboratory_worker (id, name, address, date_of_birth, occupation) VALUES (5, 'Lynetta Mclean', '818 Juniper Gate', '1994-07-23', 'biomedic')
+RECEIVED: 1
+
+SENDING DELETES:
+SEND: DELETE FROM doctor WHERE id=10
+RECEIVED: 1
+SEND: DELETE FROM patient WHERE id=100
+RECEIVED: 1
+SEND: DELETE FROM laboratory_worker WHERE id=5
+RECEIVED: 1
+
+SENDING UPDATES:
+SEND: UPDATE doctor SET name = 'test' WHERE id=1
+RECEIVED: 1
+SEND: UPDATE patient SET name = 'test' WHERE id=1
+RECEIVED: 1
+SEND: UPDATE laboratory_worker SET name = 'test' WHERE id=1
+RECEIVED: 1
+
+SENDING SELECTS:
+SEND: SELECT * FROM doctor
+RECEIVED: [(0, 'Argentina Henson', '348 Midcrest Route', datetime.datetime(1976, 6, 14, 0, 0), 'oncologist'), (2, 'Corliss Bradford', '32 Saint Germain Lane', datetime.datetime(1993, 1, 16, 0, 0), 'obstetrician'), (3, 'Yulanda Suarez', '672 Locust Field', datetime.datetime(1967, 1, 25, 0, 0), 'gynecologist'), (4, 'Deloise Whitaker', '941 Walker Heights', datetime.datetime(1950, 1, 19, 0, 0), 'oncologist'), (5, 'Shanelle Mays', '1382 Presidio Side road', datetime.datetime(1961, 7, 2, 0, 0), 'obstetrician'), (6, 'Ciera Petersen', '281 Maywood Loop', datetime.datetime(1975, 1, 13, 0, 0), 'oncologist'), (7, 'Donetta Vazquez', '569 Liberty Trace', datetime.datetime(1988, 2, 15, 0, 0), 'gynecologist'), (8, 'Gia Orr', '374 Avenue F Cove', datetime.datetime(1985, 5, 17, 0, 0), 'obstetrician'), (9, 'Eura Sosa', '1317 Hussey Bay', datetime.datetime(1984, 1, 26, 0, 0), 'obstetrician'), (1, 'test', '787 Amatista Gate', datetime.datetime(1983, 7, 14, 0, 0), 'oncologist')]
+SEND: SELECT * FROM patient
+RECEIVED: [(0, 'Lynelle Mann', '457 Emerson Freeway', datetime.datetime(1989, 7, 28, 0, 0), 'F'), (2, 'Catarina Mason', '447 Nichols Glen', datetime.datetime(1973, 2, 25, 0, 0), 'F'), (3, 'Tammera Weeks', '178 Waterville Boulevard', datetime.datetime(1989, 7, 22, 0, 0), 'F'), (4, 'Seema Mueller', '348 Garfield Ferry', datetime.datetime(1994, 6, 6, 0, 0), 'F'), (5, 'Shonta Mcmillan', '33 Spear Trace', datetime.datetime(1979, 5, 29, 0, 0), 'F'), (6, 'Jackelyn Potter', '881 Bay View Green', datetime.datetime(1993, 4, 18, 0, 0), 'F'), (7, 'Devorah Goff', '1234 Del Sur Terrace', datetime.datetime(1975, 2, 20, 0, 0), 'F'), (8, 'Britteny Peters', '386 Montague Private', datetime.datetime(1964, 7, 20, 0, 0), 'F'), (9, 'Myrta Dickson', '178 Decker High Street', datetime.datetime(2001, 3, 27, 0, 0), 'F'), (10, 'Margaretta Moreno', '1007 Somerset Mall', datetime.datetime(1984, 6, 23, 0, 0), 'F'), (11, 'Inell Hopper', '1384 Cortland Townline', datetime.datetime(1994, 3, 22, 0, 0), 'F'), (12, 'Eugene Downs', '864 Orange Plantation', datetime.datetime(1968, 3, 4, 0, 0), 'F'), (13, 'Lovella Mays', '376 Carolina Nene', datetime.datetime(1977, 7, 20, 0, 0), 'F'), (14, 'Ghislaine Rivers', '244 Osage Gardens', datetime.datetime(1987, 1, 15, 0, 0), 'F'), (15, 'Keitha Reese', '64 Beachmont Annex', datetime.datetime(1957, 3, 28, 0, 0), 'F'), (16, 'Erinn Heath', '728 Somerset Alley', datetime.datetime(1963, 5, 26, 0, 0), 'F'), (17, 'Elayne Michael', '155 Lurline Point', datetime.datetime(1962, 2, 23, 0, 0), 'F'), (18, 'Cordie Travis', '1226 Jessie Manor', datetime.datetime(1999, 3, 2, 0, 0), 'F'), (19, 'Josefine Norris', '413 Roemer Trail', datetime.datetime(1994, 5, 24, 0, 0), 'F'), (20, 'Aleen Crosby', '134 Ramsel Plaza', datetime.datetime(1971, 4, 13, 0, 0), 'F'), (21, 'Slyvia Clarke', '1350 Black Close', datetime.datetime(1995, 7, 10, 0, 0), 'F'), (22, 'Hien Jefferson', '605 Nelson Drive', datetime.datetime(1983, 2, 20, 0, 0), 'F'), (23, 'Alverta Vinson', '987 Livingston Promenade', datetime.datetime(1985, 6, 26, 0, 0), 'F'), (24, 'Temika Bauer', '1199 Cosgrove Brae', datetime.datetime(1981, 1, 28, 0, 0), 'F'), (25, 'Janee Wiley', '77 Windsor Parade', datetime.datetime(1989, 6, 20, 0, 0), 'F'), (26, 'Lyla Mays', '369 Gallagher Plaza', datetime.datetime(1971, 3, 30, 0, 0), 'F'), (27, 'Shaquana Rich', '524 Staples Bypass', datetime.datetime(1968, 4, 18, 0, 0), 'F'), (28, 'Michaele Sellers', '190 Kenneth Rexroth Freeway', datetime.datetime(1964, 5, 11, 0, 0), 'F'), (29, 'Delsie Roach', '74 Baxter Court', datetime.datetime(1967, 6, 23, 0, 0), 'F'), (30, 'Sheba Ellis', '291 Circular Grove', datetime.datetime(1991, 3, 13, 0, 0), 'F'), (31, 'Anette Gardner', '675 Laurel Park', datetime.datetime(1969, 5, 15, 0, 0), 'F'), (32, 'Alyse Levine', '1185 Oak Grove Crescent', datetime.datetime(1982, 7, 10, 0, 0), 'F'), (33, 'Shavonda Gallegos', '878 Spear Manor', datetime.datetime(1987, 7, 28, 0, 0), 'F'), (34, 'Mike Rodgers', '356 Allston Boulevard', datetime.datetime(1968, 5, 6, 0, 0), 'F'), (35, 'Yolande Hensley', '787 Stillings Walk', datetime.datetime(1998, 6, 4, 0, 0), 'F'), (36, 'Yolande Mays', '1293 Noe Plantation', datetime.datetime(1960, 7, 16, 0, 0), 'F'), (37, 'Mui Lyons', '256 Paris Parkway', datetime.datetime(1996, 3, 9, 0, 0), 'F'), (38, 'Laurena Farmer', '835 Masonic Alley', datetime.datetime(1961, 5, 11, 0, 0), 'F'), (39, 'Theressa Mayer', '771 Mckinnon Park', datetime.datetime(1972, 3, 16, 0, 0), 'F'), (40, 'Allyn Spears', '970 Stern Grove Green', datetime.datetime(1987, 3, 4, 0, 0), 'F'), (41, 'Kattie Jacobs', '854 Dr Carlton B Goodlett Private', datetime.datetime(1985, 6, 6, 0, 0), 'F'), (42, 'Miesha Juarez', '392 Rutledge Square', datetime.datetime(1986, 7, 15, 0, 0), 'F'), (43, 'Shela Cardenas', '162 Rockland Concession road', datetime.datetime(1980, 4, 8, 0, 0), 'F'), (44, 'Clarinda Steele', '682 North Hughes Parade', datetime.datetime(1998, 3, 22, 0, 0), 'F'), (45, 'Yer Cote', '569 Farallones Court', datetime.datetime(1963, 2, 15, 0, 0), 'F'), (46, 'Fredericka Collier', '72 Waltham Point', datetime.datetime(1988, 1, 15, 0, 0), 'F'), (47, 'Cherish Key', '1381 Hayward Ferry', datetime.datetime(1994, 7, 15, 0, 0), 'F'), (48, 'Jeffie Lindsay', '399 Yorba Terrace', datetime.datetime(1993, 2, 24, 0, 0), 'F'), (49, 'Lynelle Barry', '46 Falmouth Bend', datetime.datetime(1983, 6, 15, 0, 0), 'F'), (50, 'Savanna Weeks', '922 Miles Terrace', datetime.datetime(1986, 7, 11, 0, 0), 'F'), (51, 'Annelle Guy', '652 Shannon Trail', datetime.datetime(1970, 2, 9, 0, 0), 'F'), (52, 'Sunday Battle', '319 Pontiac Arcade', datetime.datetime(1975, 2, 21, 0, 0), 'F'), (53, 'Lala Baker', '146 Fauntleroy Parade', datetime.datetime(1999, 1, 29, 0, 0), 'F'), (54, 'Loise Copeland', '669 Church Access Nene', datetime.datetime(1963, 3, 9, 0, 0), 'F'), (55, 'Eladia Medina', '387 Freelon Walk', datetime.datetime(1988, 4, 16, 0, 0), 'F'), (56, 'Sima Beasley', '1219 Guttenberg Pike', datetime.datetime(2001, 3, 25, 0, 0), 'F'), (57, 'Lonna Hartman', '472 Rockaway Promenade', datetime.datetime(1957, 1, 19, 0, 0), 'F'), (58, 'Ligia Estrada', '1243 Edith Freeway', datetime.datetime(1989, 6, 19, 0, 0), 'F'), (59, 'Cleopatra Lowe', '562 Shields Field', datetime.datetime(1963, 7, 31, 0, 0), 'F'), (60, 'Penni Morrow', '361 Apparel Ferry', datetime.datetime(1967, 5, 4, 0, 0), 'F'), (61, 'Blake Mcfadden', '205 Federal Brae', datetime.datetime(1978, 4, 28, 0, 0), 'F'), (62, 'Francene Weber', '1229 Admiral Manor', datetime.datetime(1962, 6, 2, 0, 0), 'F'), (63, 'Maegan Mejia', '486 Appleton Square', datetime.datetime(1973, 7, 17, 0, 0), 'F'), (64, 'Wava Potter', '1154 Burrows Expressway', datetime.datetime(1990, 4, 28, 0, 0), 'F'), (65, 'Sena Sellers', '942 Granada High Street', datetime.datetime(1988, 4, 17, 0, 0), 'F'), (66, 'Sherise Henry', '437 Chapman Promenade', datetime.datetime(1998, 2, 23, 0, 0), 'F'), (67, 'Han Schwartz', '1343 Moulton Brae', datetime.datetime(1987, 4, 13, 0, 0), 'F'), (68, 'Merrill Blackwell', '1031 Transbay Hump Pike', datetime.datetime(1969, 7, 25, 0, 0), 'F'), (69, 'Ellis Mcdowell', '412 Yukon Park', datetime.datetime(1988, 2, 7, 0, 0), 'F'), (70, 'Nancee Bennett', '842 Selby Terrace', datetime.datetime(1997, 5, 9, 0, 0), 'F'), (71, 'Tova Kim', '1308 North Gate Route', datetime.datetime(1978, 5, 1, 0, 0), 'F'), (72, 'Eustolia Gentry', '856 Yerba Buena Parkway', datetime.datetime(1965, 3, 20, 0, 0), 'F'), (73, 'Aiko Davenport', '1076 Watt Side road', datetime.datetime(1990, 2, 11, 0, 0), 'F'), (74, 'Brittni Blair', '1103 Palos Run', datetime.datetime(1995, 2, 26, 0, 0), 'F'), (75, 'Numbers Lloyd', '729 Chinook Place', datetime.datetime(1974, 6, 28, 0, 0), 'F'), (76, 'Jinny Alvarez', '96 Science Sideline', datetime.datetime(1971, 5, 9, 0, 0), 'F'), (77, 'Nichelle Chan', '957 Estero Glen', datetime.datetime(1958, 6, 3, 0, 0), 'F'), (78, 'Jene Short', '1275 Pretor Bend', datetime.datetime(1959, 4, 14, 0, 0), 'F'), (79, 'Sima Leblanc', '716 Richard Henry Dana Court', datetime.datetime(1973, 1, 15, 0, 0), 'F'), (80, 'Kizzie Robinson', '120 Andrew Arcade', datetime.datetime(1966, 3, 11, 0, 0), 'F'), (81, 'Yevette Castro', '1107 Waithman Boulevard', datetime.datetime(1975, 2, 5, 0, 0), 'F'), (82, 'Latashia Dunlap', '1386 Heritage Plaza', datetime.datetime(1998, 2, 10, 0, 0), 'F'), (83, 'Cythia Porter', '876 Circular Sideline', datetime.datetime(1988, 5, 23, 0, 0), 'F'), (84, 'Bettyann Boone', '486 Cameo Brae', datetime.datetime(1974, 6, 15, 0, 0), 'F'), (85, 'Kali Weeks', '546 Rutledge Hill', datetime.datetime(1999, 6, 3, 0, 0), 'F'), (86, 'Jeannetta Fitzgerald', '355 Dow Close', datetime.datetime(1979, 4, 15, 0, 0), 'F'), (87, 'Nickole Henderson', '1342 Virginia Drung', datetime.datetime(1981, 4, 18, 0, 0), 'F'), (88, 'Joella Anthony', '731 Saroyan Esplanade', datetime.datetime(1972, 5, 14, 0, 0), 'F'), (89, 'Antonio Hensley', '948 Homer Promenade', datetime.datetime(1977, 6, 29, 0, 0), 'F'), (90, 'Iesha Brock', '37 Geary Gardens', datetime.datetime(2000, 2, 3, 0, 0), 'F'), (91, 'Florentina Gallagher', '1017 Santa Ynez Brae', datetime.datetime(1988, 3, 27, 0, 0), 'F'), (92, 'Carlyn Holt', '1123 Dow Line', datetime.datetime(1959, 1, 19, 0, 0), 'F'), (93, 'Petronila Nielsen', '1375 Saint Elmo Grove', datetime.datetime(1992, 6, 20, 0, 0), 'F'), (94, 'Margorie Ruiz', '379 Parkridge Hill', datetime.datetime(1966, 5, 26, 0, 0), 'F'), (95, 'Jaleesa Williamson', '333 Alta Gardens', datetime.datetime(1976, 6, 15, 0, 0), 'F'), (96, 'Eilene Slater', '36 West View Thruway', datetime.datetime(2001, 7, 8, 0, 0), 'F'), (97, 'Ozell Young', '583 Pratt Street', datetime.datetime(1965, 4, 11, 0, 0), 'F'), (98, 'Loida Hines', '160 Abbey Gardens', datetime.datetime(1960, 6, 8, 0, 0), 'F'), (99, 'Synthia Moses', '954 Farallones Run', datetime.datetime(1971, 3, 7, 0, 0), 'F'), (1, 'test', '991 Crown Park', datetime.datetime(1985, 7, 22, 0, 0), 'F')]
+SEND: SELECT * FROM laboratory_worker
+RECEIVED: [(0, 'Kathaleen Scott', '1169 Duncombe Sideline', datetime.datetime(1950, 5, 18, 0, 0), 'biomedic'), (2, 'Ulrike Huff', '456 Christopher Road', datetime.datetime(1974, 3, 10, 0, 0), 'biomedic'), (3, 'Nana Spence', '1 Baxter Bend', datetime.datetime(1951, 7, 3, 0, 0), 'biomedic'), (4, 'Annice Albert', '337 Sloan Alley', datetime.datetime(1975, 2, 13, 0, 0), 'biomedic'), (1, 'test', '13 Vara Run', datetime.datetime(1982, 2, 5, 0, 0), 'biomedic')]
+
+BLOCKCHAIN:
+
+
+INSERT:
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (2, 1, 74, '2019-02-09', 70, 2.707, 8.8071, 9.7024, 7.99585, 417.114)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (3, 2, 99, '2019-02-12', 92, 3.115, 8.8438, 5.429285, 4.06405, 468.786)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (5, 2, 44, '2019-01-04', 91, 4.498, 17.9393, 22.43204, 9.27715, 554.697)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 0, 63, '2019-05-28', 77, 3.226, 9.8827, 7.16956, 12.766, 928.22)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (0, 1, 58, '2019-06-06', 92, 3.549, 6.6994, 4.81924, 10.57635, 773.92)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 4, 72, '2019-06-06', 92, 3.226, 6.8317, 13.67975, 10.3176, 530.41)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (9, 1, 38, '2019-05-27', 77, 4.69, 6.964, 5.589865, 12.9361, 1256.083)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 0, 92, '2019-03-16', 118, 6.47, 4.311, 13.25132, 5.1042, 280.694)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 4, 71, '2019-05-06', 97, 3.35, 4.47, 10.358725, 6.28445, 136.855)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 0, 76, '2019-01-05', 83, 4.952, 17.127, 11.57899, 7.0913, 318.302)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (0, 4, 24, '2019-05-15', 78, 3.469, 14.57, 13.11, 6.92, 354.6)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 3, 63, '2019-07-08', 82, 5.663, 35.59, 26.72, 4.58, 174.8)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (9, 3, 1, '2019-04-06', 82, 4.09, 20.45, 23.67, 5.14, 313.73)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 2, 96, '2019-01-14', 88, 6.107, 8.88, 36.06, 6.85, 632.22)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (3, 3, 71, '2019-03-08', 75, 5.782, 15.26, 17.95, 9.35, 165.02)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (2, 2, 52, '2019-06-23', 86, 7.553, 14.09, 20.32, 7.64, 63.61)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 2, 88, '2019-06-08', 84, 2.869, 26.65, 38.04, 3.32, 191.72)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (7, 2, 88, '2019-07-09', 85, 18.077, 30.7729, 7.780255, 13.68392, 444.395)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 4, 39, '2019-07-19', 95, 4.427, 21.2117, 5.46262, 6.70188, 252.449)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (8, 0, 14, '2019-02-19', 87, 14.026, 49.3727, 5.1, 17.10223, 588.46)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 2, 63, '2019-02-22', 86, 4.345, 15.1248, 8.6, 9.1539, 534.224)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (8, 1, 62, '2019-04-16', 87, 4.53, 28.7502, 7.64276, 5.62592, 572.783)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (7, 4, 40, '2019-04-13', 84, 5.81, 45.6196, 6.209635, 24.6033, 904.981)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (3, 0, 25, '2019-04-26', 84, 4.376, 39.2134, 9.048185, 16.43706, 733.797)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (8, 2, 25, '2019-05-30', 90, 5.537, 12.331, 9.73138, 10.19299, 1227.91)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (3, 2, 17, '2019-03-05', 83, 6.76, 39.9802, 4.617125, 8.70448, 586.173)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (2, 4, 58, '2019-04-21', 106, 6.703, 46.6401, 4.667645, 11.78388, 887.16)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (9, 4, 22, '2019-07-13', 90, 9.245, 45.9624, 10.35526, 23.3819, 1102.11)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (3, 3, 6, '2019-06-06', 90, 6.817, 50.6094, 6.966895, 22.03703, 667.928)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (2, 2, 73, '2019-03-27', 80, 6.59, 10.2809, 5.065915, 15.72187, 581.313)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (4, 3, 59, '2019-07-07', 101, 15.533, 74.7069, 7.53955, 22.32024, 864.968)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 1, 46, '2019-02-21', 101, 10.175, 27.1841, 20.03, 10.26309, 695.754)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (7, 0, 34, '2019-06-10', 87, 8.576, 68.5102, 4.7942, 21.44366, 358.624)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (2, 2, 68, '2019-05-31', 89, 23.194, 31.2128, 8.300955, 6.71026, 960.246)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 4, 13, '2019-01-03', 77, 3.855, 20.092, 3.19209, 10.37518, 473.859)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 4, 54, '2019-07-08', 79, 5.819, 21.9033, 2.19428, 4.2075, 585.307)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 4, 15, '2019-06-12', 82, 4.181, 16.2247, 4.267105, 3.29175, 634.602)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (8, 1, 47, '2019-06-30', 101, 5.646, 83.4821, 6.796985, 82.1, 263.499)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (4, 0, 12, '2019-03-22', 103, 5.138, 24.2998, 2.19428, 20.2535, 378.996)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (2, 2, 5, '2019-01-27', 76, 3.881, 21.7863, 8.12555, 17.2615, 618.272)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 3, 31, '2019-01-26', 83, 5.376, 28.562, 7.36996, 8.04375, 698.789)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (5, 1, 22, '2019-07-20', 94, 14.07, 35.891, 9.34663, 8.4156, 377.227)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (5, 4, 48, '2019-06-18', 85, 5.197, 10.39, 9.000805, 7.5767, 335.393)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (0, 0, 10, '2019-04-17', 93, 5.43, 15.145, 11.78796, 11.78796, 270.142)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 1, 12, '2019-07-14', 102, 8.34, 56.502, 8.13, 4.2989, 200.976)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (5, 1, 16, '2019-04-11', 90, 6.042, 24.846, 7.652055, 6.7052, 225.88)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (9, 2, 82, '2019-06-10', 94, 8.079, 65.926, 3.74122, 4.49685, 206.802)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 0, 66, '2019-01-30', 60, 3.508, 6.633, 10.567295, 4.6638, 209.749)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (8, 3, 51, '2019-04-11', 89, 10.704, 45.272, 8.2863, 4.53, 215.769)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (3, 1, 88, '2019-05-19', 96, 4.462, 7.85, 7.9317, 9.6135, 232.006)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 3, 28, '2019-02-25', 110, 26.211, 21.778, 4.935635, 8.49395, 45.843)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (7, 2, 15, '2019-02-18', 85, 4.58, 13.74, 9.75326, 11.774, 488.829)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (9, 1, 34, '2019-05-26', 102, 13.852, 7.6476, 21.056625, 23.03408, 552.444)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (7, 2, 45, '2019-03-05', 74, 4.56, 7.7529, 8.237405, 28.0323, 382.955)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (5, 3, 57, '2019-03-11', 94, 12.305, 11.2406, 8.412175, 23.1177, 573.63)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (0, 2, 66, '2019-01-11', 92, 21.699, 16.7353, 21.823745, 12.06534, 481.949)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (4, 4, 87, '2019-06-27', 93, 2.999, 19.0826, 8.462915, 17.37615, 321.919)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 4, 17, '2019-07-10', 102, 6.2, 9.6994, 8.574655, 13.74244, 448.799)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (2, 4, 67, '2019-03-06', 93, 4.364, 11.0816, 5.80762, 5.57055, 90.6)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (8, 3, 38, '2019-02-25', 92, 3.482, 9.8648, 11.236235, 10.69548, 703.973)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (0, 2, 14, '2019-06-28', 95, 5.261, 8.438, 4.77192, 15.73606, 199.055)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (9, 1, 36, '2019-01-08', 112, 6.683, 32.58, 4.138025, 15.69876, 713.239)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 4, 88, '2019-03-21', 78, 2.64, 6.3339, 3.886145, 22.94254, 737.672)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 1, 64, '2019-02-13', 103, 2.74, 8.0163, 9.349775, 11.55492, 359.232)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (2, 3, 1, '2019-01-20', 98, 6.862, 14.9037, 4.230105, 8.2049, 355.31)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (0, 2, 88, '2019-01-05', 116, 4.902, 17.9973, 4.294705, 5.2633, 518.586)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 3, 31, '2019-03-16', 86, 3.73, 8.6874, 3.70523, 10.34455, 635.049)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (4, 1, 76, '2019-01-24', 98, 5.7, 12.1905, 4.783985, 13.91245, 395.976)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (8, 3, 55, '2019-01-16', 88, 3.42, 12.87, 18.55, 13.56, 301.21)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (5, 4, 49, '2019-04-18', 114, 15.89, 13.08, 20.37, 4.62, 220.66)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (0, 0, 89, '2019-02-09', 92, 3.44, 7.65, 16.67, 7.84, 193.87)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (5, 2, 96, '2019-05-18', 106, 58.46, 18.16, 16.1, 5.31, 244.75)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (0, 4, 57, '2019-01-19', 105, 6.03, 9.62, 12.76, 3.21, 513.66)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (2, 1, 19, '2019-06-07', 105, 4.42, 21.78, 17.86, 4.82, 195.94)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (4, 2, 9, '2019-03-07', 86, 36.94, 10.16, 9.76, 5.68, 312)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 1, 5, '2019-07-02', 101, 10.555, 9.8, 6.420295, 16.1, 806.724)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (8, 0, 57, '2019-07-06', 92, 16.635, 37.2234, 11.018455, 7.16514, 483.377)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (7, 0, 85, '2019-05-02', 103, 4.328, 25.7816, 12.71896, 38.6531, 775.322)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (8, 4, 2, '2019-01-18', 201, 41.611, 47.647, 5.357135, 24.3701, 1698.44)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 4, 81, '2019-01-05', 97, 22.033, 44.7059, 13.494865, 27.8325, 783.796)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (2, 1, 77, '2019-04-21', 77, 3.188, 17.022, 16.44048, 31.6904, 910.489)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (0, 0, 99, '2019-02-09', 100, 9.669, 38.8066, 10.636525, 29.5583, 426.175)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (3, 0, 31, '2019-05-08', 99, 28.677, 46.076, 21.57, 10.15726, 738.034)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (8, 1, 39, '2019-05-23', 112, 10.395, 19.0653, 5.4861, 42.7447, 799.898)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (3, 0, 46, '2019-06-16', 98, 4.172, 12.2617, 6.695585, 53.6717, 1041.843)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 1, 24, '2019-01-15', 85, 14.649, 26.5166, 7.28287, 19.46324, 1698.44)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (4, 2, 43, '2019-03-16', 90, 2.54, 15.5325, 10.22231, 16.11032, 1698.44)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 4, 42, '2019-06-23', 196, 51.814, 70.8824, 7.901685, 55.2153, 1078.359)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 2, 29, '2019-05-09', 199, 12.162, 18.1314, 4.104105, 53.6308, 1698.44)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (9, 3, 4, '2019-05-07', 139, 16.582, 22.8884, 10.26266, 13.97399, 923.886)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (9, 0, 52, '2019-04-13', 128, 41.894, 31.0385, 6.160995, 17.55503, 638.261)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (9, 1, 85, '2019-07-03', 100, 18.077, 31.6453, 9.92365, 19.94687, 994.316)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 1, 49, '2019-01-10', 87, 30.212, 29.2739, 6.26854, 24.24591, 764.667)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 2, 82, '2019-01-21', 134, 24.887, 42.3914, 10.79394, 5.768, 656.393)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (5, 2, 60, '2019-01-06', 131, 30.13, 37.843, 8.40443, 11.50005, 396.021)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 0, 73, '2019-06-12', 70, 8.396, 51.3387, 10.73174, 20.76801, 602.486)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (2, 4, 28, '2019-05-30', 99, 9.208, 12.6757, 5.47817, 23.03306, 407.206)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (4, 4, 18, '2019-07-02', 103, 2.432, 14.3224, 6.78387, 26.0136, 293.123)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (4, 2, 44, '2019-01-26', 104, 18.2, 53.4997, 1.65602, 49.24184, 256.001)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 0, 5, '2019-04-27', 108, 8.808, 14.7485, 5.288025, 16.48508, 353.568)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (5, 4, 59, '2019-05-28', 88, 3.012, 31.1233, 7.65222, 18.35574, 572.401)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (0, 3, 21, '2019-04-25', 89, 6.524, 14.9084, 8.42996, 14.91922, 269.487)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (4, 2, 95, '2019-02-05', 97, 10.491, 44.0217, 3.71009, 20.4685, 396.648)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (8, 3, 79, '2019-03-19', 83, 10.949, 26.8081, 2.78491, 14.76966, 232.018)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (2, 3, 47, '2019-06-22', 95, 12.548, 33.1612, 2.36495, 9.9542, 655.834)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 2, 57, '2019-04-16', 134, 5.636, 41.4064, 3.335665, 6.89235, 788.902)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (5, 4, 93, '2019-07-12', 90, 4.713, 23.8479, 6.644245, 15.55625, 621.273)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (3, 2, 55, '2019-04-10', 92, 5.75, 18.69, 9.16, 8.89, 209.19)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 4, 58, '2019-06-23', 131, 8.15, 17.87, 11.9, 4.19, 198.4)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (3, 3, 32, '2019-01-12', 152, 7.01, 50.53, 10.06, 11.73, 99.45)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 3, 98, '2019-02-18', 119, 11.91, 89.27, 8.01, 5.06, 218.28)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (2, 0, 32, '2019-01-13', 92, 3.33, 54.68, 12.1, 10.96, 268.23)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 3, 74, '2019-01-10', 100, 4.53, 12.45, 21.42, 7.32, 330.16)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (1, 0, 5, '2019-04-01', 97, 5.73, 61.48, 22.54, 10.33, 314.05)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (6, 1, 62, '2019-06-28', 82, 2.82, 24.96, 33.75, 3.27, 392.46)
+RECEIVED: 1
+SEND: INSERT INTO exam (id_doctor, id_lab_worker, id_patient, date, glucose, insulin, leptin, adiponectin, resistin, MCP-1) VALUES (4, 1, 66, '2019-05-30', 138, 19.91, 90.28, 14.11, 4.35, 90.09)
+RECEIVED: 1
+
+UPDATE:
+SEND: UPDATE exam SET glucose = 2, insulin = 7, leptin = 21, adiponectin = 34, resistin = 24, MCP-1 = 1 WHERE id_doctor = 3 AND id_lab_worker = 2 AND id_patient = 99 AND date = '2019-02-12'
+RECEIVED: 1
+
+SELECT:
+SEND: SELECT * FROM exam
+RECEIVED: [['exam', '2', '1', '74', '2019-02-09', '70', '2.707', '8.8071', '9.7024', '7.99585', '417.114'], ['exam', '3', '2', '99', '2019-02-12', '92', '3.115', '8.8438', '5.429285', '4.06405', '468.786'], ['exam', '5', '2', '44', '2019-01-04', '91', '4.498', '17.9393', '22.43204', '9.27715', '554.697'], ['exam', '1', '0', '63', '2019-05-28', '77', '3.226', '9.8827', '7.16956', '12.766', '928.22'], ['exam', '0', '1', '58', '2019-06-06', '92', '3.549', '6.6994', '4.81924', '10.57635', '773.92'], ['exam', '6', '4', '72', '2019-06-06', '92', '3.226', '6.8317', '13.67975', '10.3176', '530.41'], ['exam', '9', '1', '38', '2019-05-27', '77', '4.69', '6.964', '5.589865', '12.9361', '1256.083'], ['exam', '6', '0', '92', '2019-03-16', '118', '6.47', '4.311', '13.25132', '5.1042', '280.694'], ['exam', '6', '4', '71', '2019-05-06', '97', '3.35', '4.47', '10.358725', '6.28445', '136.855'], ['exam', '1', '0', '76', '2019-01-05', '83', '4.952', '17.127', '11.57899', '7.0913', '318.302'], ['exam', '0', '4', '24', '2019-05-15', '78', '3.469', '14.57', '13.11', '6.92', '354.6'], ['exam', '6', '3', '63', '2019-07-08', '82', '5.663', '35.59', '26.72', '4.58', '174.8'], ['exam', '9', '3', '1', '2019-04-06', '82', '4.09', '20.45', '23.67', '5.14', '313.73'], ['exam', '6', '2', '96', '2019-01-14', '88', '6.107', '8.88', '36.06', '6.85', '632.22'], ['exam', '3', '3', '71', '2019-03-08', '75', '5.782', '15.26', '17.95', '9.35', '165.02'], ['exam', '2', '2', '52', '2019-06-23', '86', '7.553', '14.09', '20.32', '7.64', '63.61'], ['exam', '1', '2', '88', '2019-06-08', '84', '2.869', '26.65', '38.04', '3.32', '191.72'], ['exam', '7', '2', '88', '2019-07-09', '85', '18.077', '30.7729', '7.780255', '13.68392', '444.395'], ['exam', '6', '4', '39', '2019-07-19', '95', '4.427', '21.2117', '5.46262', '6.70188', '252.449'], ['exam', '8', '0', '14', '2019-02-19', '87', '14.026', '49.3727', '5.1', '17.10223', '588.46'], ['exam', '1', '2', '63', '2019-02-22', '86', '4.345', '15.1248', '8.6', '9.1539', '534.224'], ['exam', '8', '1', '62', '2019-04-16', '87', '4.53', '28.7502', '7.64276', '5.62592', '572.783'], ['exam', '7', '4', '40', '2019-04-13', '84', '5.81', '45.6196', '6.209635', '24.6033', '904.981'], ['exam', '3', '0', '25', '2019-04-26', '84', '4.376', '39.2134', '9.048185', '16.43706', '733.797'], ['exam', '8', '2', '25', '2019-05-30', '90', '5.537', '12.331', '9.73138', '10.19299', '1227.91'], ['exam', '3', '2', '17', '2019-03-05', '83', '6.76', '39.9802', '4.617125', '8.70448', '586.173'], ['exam', '2', '4', '58', '2019-04-21', '106', '6.703', '46.6401', '4.667645', '11.78388', '887.16'], ['exam', '9', '4', '22', '2019-07-13', '90', '9.245', '45.9624', '10.35526', '23.3819', '1102.11'], ['exam', '3', '3', '6', '2019-06-06', '90', '6.817', '50.6094', '6.966895', '22.03703', '667.928'], ['exam', '2', '2', '73', '2019-03-27', '80', '6.59', '10.2809', '5.065915', '15.72187', '581.313'], ['exam', '4', '3', '59', '2019-07-07', '101', '15.533', '74.7069', '7.53955', '22.32024', '864.968'], ['exam', '6', '1', '46', '2019-02-21', '101', '10.175', '27.1841', '20.03', '10.26309', '695.754'], ['exam', '7', '0', '34', '2019-06-10', '87', '8.576', '68.5102', '4.7942', '21.44366', '358.624'], ['exam', '2', '2', '68', '2019-05-31', '89', '23.194', '31.2128', '8.300955', '6.71026', '960.246'], ['exam', '1', '4', '13', '2019-01-03', '77', '3.855', '20.092', '3.19209', '10.37518', '473.859'], ['exam', '6', '4', '54', '2019-07-08', '79', '5.819', '21.9033', '2.19428', '4.2075', '585.307'], ['exam', '6', '4', '15', '2019-06-12', '82', '4.181', '16.2247', '4.267105', '3.29175', '634.602'], ['exam', '8', '1', '47', '2019-06-30', '101', '5.646', '83.4821', '6.796985', '82.1', '263.499'], ['exam', '4', '0', '12', '2019-03-22', '103', '5.138', '24.2998', '2.19428', '20.2535', '378.996'], ['exam', '2', '2', '5', '2019-01-27', '76', '3.881', '21.7863', '8.12555', '17.2615', '618.272'], ['exam', '6', '3', '31', '2019-01-26', '83', '5.376', '28.562', '7.36996', '8.04375', '698.789'], ['exam', '5', '1', '22', '2019-07-20', '94', '14.07', '35.891', '9.34663', '8.4156', '377.227'], ['exam', '5', '4', '48', '2019-06-18', '85', '5.197', '10.39', '9.000805', '7.5767', '335.393'], ['exam', '0', '0', '10', '2019-04-17', '93', '5.43', '15.145', '11.78796', '11.78796', '270.142'], ['exam', '6', '1', '12', '2019-07-14', '102', '8.34', '56.502', '8.13', '4.2989', '200.976'], ['exam', '5', '1', '16', '2019-04-11', '90', '6.042', '24.846', '7.652055', '6.7052', '225.88'], ['exam', '9', '2', '82', '2019-06-10', '94', '8.079', '65.926', '3.74122', '4.49685', '206.802'], ['exam', '6', '0', '66', '2019-01-30', '60', '3.508', '6.633', '10.567295', '4.6638', '209.749'], ['exam', '8', '3', '51', '2019-04-11', '89', '10.704', '45.272', '8.2863', '4.53', '215.769'], ['exam', '3', '1', '88', '2019-05-19', '96', '4.462', '7.85', '7.9317', '9.6135', '232.006'], ['exam', '1', '3', '28', '2019-02-25', '110', '26.211', '21.778', '4.935635', '8.49395', '45.843'], ['exam', '7', '2', '15', '2019-02-18', '85', '4.58', '13.74', '9.75326', '11.774', '488.829'], ['exam', '9', '1', '34', '2019-05-26', '102', '13.852', '7.6476', '21.056625', '23.03408', '552.444'], ['exam', '7', '2', '45', '2019-03-05', '74', '4.56', '7.7529', '8.237405', '28.0323', '382.955'], ['exam', '5', '3', '57', '2019-03-11', '94', '12.305', '11.2406', '8.412175', '23.1177', '573.63'], ['exam', '0', '2', '66', '2019-01-11', '92', '21.699', '16.7353', '21.823745', '12.06534', '481.949'], ['exam', '4', '4', '87', '2019-06-27', '93', '2.999', '19.0826', '8.462915', '17.37615', '321.919'], ['exam', '6', '4', '17', '2019-07-10', '102', '6.2', '9.6994', '8.574655', '13.74244', '448.799'], ['exam', '2', '4', '67', '2019-03-06', '93', '4.364', '11.0816', '5.80762', '5.57055', '90.6'], ['exam', '8', '3', '38', '2019-02-25', '92', '3.482', '9.8648', '11.236235', '10.69548', '703.973'], ['exam', '0', '2', '14', '2019-06-28', '95', '5.261', '8.438', '4.77192', '15.73606', '199.055'], ['exam', '9', '1', '36', '2019-01-08', '112', '6.683', '32.58', '4.138025', '15.69876', '713.239'], ['exam', '1', '4', '88', '2019-03-21', '78', '2.64', '6.3339', '3.886145', '22.94254', '737.672'], ['exam', '1', '1', '64', '2019-02-13', '103', '2.74', '8.0163', '9.349775', '11.55492', '359.232'], ['exam', '2', '3', '1', '2019-01-20', '98', '6.862', '14.9037', '4.230105', '8.2049', '355.31'], ['exam', '0', '2', '88', '2019-01-05', '116', '4.902', '17.9973', '4.294705', '5.2633', '518.586'], ['exam', '1', '3', '31', '2019-03-16', '86', '3.73', '8.6874', '3.70523', '10.34455', '635.049'], ['exam', '4', '1', '76', '2019-01-24', '98', '5.7', '12.1905', '4.783985', '13.91245', '395.976'], ['exam', '8', '3', '55', '2019-01-16', '88', '3.42', '12.87', '18.55', '13.56', '301.21'], ['exam', '5', '4', '49', '2019-04-18', '114', '15.89', '13.08', '20.37', '4.62', '220.66'], ['exam', '0', '0', '89', '2019-02-09', '92', '3.44', '7.65', '16.67', '7.84', '193.87'], ['exam', '5', '2', '96', '2019-05-18', '106', '58.46', '18.16', '16.1', '5.31', '244.75'], ['exam', '0', '4', '57', '2019-01-19', '105', '6.03', '9.62', '12.76', '3.21', '513.66'], ['exam', '2', '1', '19', '2019-06-07', '105', '4.42', '21.78', '17.86', '4.82', '195.94'], ['exam', '4', '2', '9', '2019-03-07', '86', '36.94', '10.16', '9.76', '5.68', '312'], ['exam', '6', '1', '5', '2019-07-02', '101', '10.555', '9.8', '6.420295', '16.1', '806.724'], ['exam', '8', '0', '57', '2019-07-06', '92', '16.635', '37.2234', '11.018455', '7.16514', '483.377'], ['exam', '7', '0', '85', '2019-05-02', '103', '4.328', '25.7816', '12.71896', '38.6531', '775.322'], ['exam', '8', '4', '2', '2019-01-18', '201', '41.611', '47.647', '5.357135', '24.3701', '1698.44'], ['exam', '1', '4', '81', '2019-01-05', '97', '22.033', '44.7059', '13.494865', '27.8325', '783.796'], ['exam', '2', '1', '77', '2019-04-21', '77', '3.188', '17.022', '16.44048', '31.6904', '910.489'], ['exam', '0', '0', '99', '2019-02-09', '100', '9.669', '38.8066', '10.636525', '29.5583', '426.175'], ['exam', '3', '0', '31', '2019-05-08', '99', '28.677', '46.076', '21.57', '10.15726', '738.034'], ['exam', '8', '1', '39', '2019-05-23', '112', '10.395', '19.0653', '5.4861', '42.7447', '799.898'], ['exam', '3', '0', '46', '2019-06-16', '98', '4.172', '12.2617', '6.695585', '53.6717', '1041.843'], ['exam', '6', '1', '24', '2019-01-15', '85', '14.649', '26.5166', '7.28287', '19.46324', '1698.44'], ['exam', '4', '2', '43', '2019-03-16', '90', '2.54', '15.5325', '10.22231', '16.11032', '1698.44'], ['exam', '1', '4', '42', '2019-06-23', '196', '51.814', '70.8824', '7.901685', '55.2153', '1078.359'], ['exam', '1', '2', '29', '2019-05-09', '199', '12.162', '18.1314', '4.104105', '53.6308', '1698.44'], ['exam', '9', '3', '4', '2019-05-07', '139', '16.582', '22.8884', '10.26266', '13.97399', '923.886'], ['exam', '9', '0', '52', '2019-04-13', '128', '41.894', '31.0385', '6.160995', '17.55503', '638.261'], ['exam', '9', '1', '85', '2019-07-03', '100', '18.077', '31.6453', '9.92365', '19.94687', '994.316'], ['exam', '1', '1', '49', '2019-01-10', '87', '30.212', '29.2739', '6.26854', '24.24591', '764.667'], ['exam', '1', '2', '82', '2019-01-21', '134', '24.887', '42.3914', '10.79394', '5.768', '656.393'], ['exam', '5', '2', '60', '2019-01-06', '131', '30.13', '37.843', '8.40443', '11.50005', '396.021'], ['exam', '1', '0', '73', '2019-06-12', '70', '8.396', '51.3387', '10.73174', '20.76801', '602.486'], ['exam', '2', '4', '28', '2019-05-30', '99', '9.208', '12.6757', '5.47817', '23.03306', '407.206'], ['exam', '4', '4', '18', '2019-07-02', '103', '2.432', '14.3224', '6.78387', '26.0136', '293.123'], ['exam', '4', '2', '44', '2019-01-26', '104', '18.2', '53.4997', '1.65602', '49.24184', '256.001'], ['exam', '1', '0', '5', '2019-04-27', '108', '8.808', '14.7485', '5.288025', '16.48508', '353.568'], ['exam', '5', '4', '59', '2019-05-28', '88', '3.012', '31.1233', '7.65222', '18.35574', '572.401'], ['exam', '0', '3', '21', '2019-04-25', '89', '6.524', '14.9084', '8.42996', '14.91922', '269.487'], ['exam', '4', '2', '95', '2019-02-05', '97', '10.491', '44.0217', '3.71009', '20.4685', '396.648'], ['exam', '8', '3', '79', '2019-03-19', '83', '10.949', '26.8081', '2.78491', '14.76966', '232.018'], ['exam', '2', '3', '47', '2019-06-22', '95', '12.548', '33.1612', '2.36495', '9.9542', '655.834'], ['exam', '6', '2', '57', '2019-04-16', '134', '5.636', '41.4064', '3.335665', '6.89235', '788.902'], ['exam', '5', '4', '93', '2019-07-12', '90', '4.713', '23.8479', '6.644245', '15.55625', '621.273'], ['exam', '3', '2', '55', '2019-04-10', '92', '5.75', '18.69', '9.16', '8.89', '209.19'], ['exam', '1', '4', '58', '2019-06-23', '131', '8.15', '17.87', '11.9', '4.19', '198.4'], ['exam', '3', '3', '32', '2019-01-12', '152', '7.01', '50.53', '10.06', '11.73', '99.45'], ['exam', '6', '3', '98', '2019-02-18', '119', '11.91', '89.27', '8.01', '5.06', '218.28'], ['exam', '2', '0', '32', '2019-01-13', '92', '3.33', '54.68', '12.1', '10.96', '268.23'], ['exam', '1', '3', '74', '2019-01-10', '100', '4.53', '12.45', '21.42', '7.32', '330.16'], ['exam', '1', '0', '5', '2019-04-01', '97', '5.73', '61.48', '22.54', '10.33', '314.05'], ['exam', '6', '1', '62', '2019-06-28', '82', '2.82', '24.96', '33.75', '3.27', '392.46'], ['exam', '4', '1', '66', '2019-05-30', '138', '19.91', '90.28', '14.11', '4.35', '90.09'], ['6', '2', '16', "'2019-05-07'", '2', '7', '21', '34', '24', '1']]
+
+DELETE:
+SEND: DELETE * FROM exam
+NOT SUPPORTED
